@@ -1,7 +1,7 @@
 header {
     grid-column: span 2;
     text-align: center;
-    background-color: hsla(82, 68%, 38%, 0.749);
+    background-color: hsla(8, 77%, 46%, 0.749);
     color: white;
 }
 
@@ -14,10 +14,10 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 20;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 nav ul li {
@@ -25,7 +25,7 @@ nav ul li {
 }
 
 main {
-    background-color: #0d0606;
+    background-color: hsl(161, 59%, 49%);
     height: 1000px;
 }
 
@@ -37,7 +37,7 @@ aside {
 footer {
     grid-column: span 2;
     text-align: center;
-    background-color: #222;
+    background-color: #26072c;
     color: white;
 }
 
