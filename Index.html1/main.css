@@ -1,23 +1,24 @@
 header {
     grid-column: span 2;
     text-align: center;
-    background-color: hsla(8, 77%, 46%, 0.749);
+    background-color: #d01b30bf;
     color: white;
 }
 
 nav {
     grid-column: span 2;
-    background-color: #252121;
+    background-color: rgb(96, 112, 255);
     color: white;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
-    padding: 20;
+    padding: 30;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
+    height: 30px
 }
 
 nav ul li {
@@ -30,7 +31,7 @@ main {
 }
 
 aside {
-    background-color: #2a0909;
+    background-color: hsl(64, 62%, 48%);
     color: aliceblue;
 }
 
