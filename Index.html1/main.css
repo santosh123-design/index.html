@@ -14,7 +14,7 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 30;
+    padding: 35;
     display: flex;
     justify-content: center;
     gap: 30px;
