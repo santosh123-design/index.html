@@ -28,6 +28,7 @@ nav ul li {
 main {
     background-color: hsl(161, 59%, 49%);
     height: 1000px;
+    justify-content: center;
 }
 
 aside {
