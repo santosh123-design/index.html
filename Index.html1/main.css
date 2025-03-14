@@ -7,7 +7,7 @@ header {
 
 nav {
     grid-column: span 2;
-    background-color: rgb(96, 112, 255);
+    background-color: #1d0202;
     color: white;
     text-align: center;
 }
