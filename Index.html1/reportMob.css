@@ -1,0 +1,38 @@
+/* Mobile Styles */
+@media screen and (max-width: 800px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    main h3 {
+        font-size: 1.4rem;
+    }
+
+    aside {
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    footer {
+        position: static;
+        padding: 0.5rem;
+    }
+}
