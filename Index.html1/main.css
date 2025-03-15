@@ -8,7 +8,7 @@
   body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: hsl(186, 28%, 40%);
   }
   
   header {
@@ -28,20 +28,20 @@
   
   nav ul li a {
     text-decoration: none;
-    color: hwb(249 96% 1%);
+    color: #f6f5fc;
     font-size: 1.1rem;
   }
   
   footer {
     background-color: #2c3e50;
-    color: white;
+    color: hsl(0, 0%, 100%);
     text-align: center;
     padding: 1rem;
   }
 
   .hero {
     background-color: #2c3e50;
-    color: white;
+    color: #b1de8d;
     text-align: center;
     padding: 4rem 1rem;
   }
@@ -59,7 +59,7 @@
   .hero .cta-button {
     text-decoration: none;
     background-color: #3498db;
-    color: white;
+    color: hwb(137 88% 9%);
     padding: 1rem 2rem;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -71,13 +71,13 @@
   
   .bio {
     padding: 2rem;
-    background-color: white;
+    background-color: #8ef4d7;
     margin: 2rem 1rem;
     border-radius: 8px;
   }
   
   .bio h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
   
