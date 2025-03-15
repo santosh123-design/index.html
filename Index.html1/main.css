@@ -26,8 +26,8 @@ nav ul li {
 }
 
 main {
-    background-color: hsl(161, 59%, 49%);
-    height: 1000px;
+    background-color: white(161, 59%, 49%);
+    height: 800px;
     justify-content: center;
 }
 
