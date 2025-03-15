@@ -1,7 +1,5 @@
-/* Desktop Styles */
-@media screen and (min-width: 800px) {
 
-    /* Hero Section */
+@media screen and (min-width: 800px) {
     .hero {
       padding: 5rem 2rem;
     }
@@ -18,8 +16,7 @@
       padding: 1rem 2rem;
       font-size: 1.2rem;
     }
-  
-    /* Bio Section */
+
     .bio {
       max-width: 800px;
       margin: 2rem auto;
@@ -33,8 +30,7 @@
     .bio p {
       font-size: 1.2rem;
     }
-  
-    /* Navigation Menu */
+
     nav ul {
       justify-content: center;
     }
