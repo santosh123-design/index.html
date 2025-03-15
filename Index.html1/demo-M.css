@@ -1,6 +1,4 @@
-/* demo-M.css */
 
-/* General Styles for smaller screens (mobile view) */
 @media screen and (max-width: 800px) {
     body {
       font-size: 1rem;
@@ -15,7 +13,7 @@
     nav ul {
       flex-direction: column;
       align-items: center;
-      padding: 0;
+      padding: 10;
     }
   
     nav ul li {
