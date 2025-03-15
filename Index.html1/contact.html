@@ -3,48 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="contact-D.css" media="screen">
-    <link rel="stylesheet" href="contact-M.css" media="screen and (max-width: 800px)">
-    <link rel="stylesheet" href="contact-Mob.css" media="screen and (min-width: 800px)">
+    <title>Contact - Santosh Roka</title>
 </head>
 <body>
-    <header>
-        <h1>Santosh Roka</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="1 index.html">Home</a></li>
-            <li><a href="project.html">Project</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="demo.html">Demo</a></li>
-            <li><a href="report..html">Report</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section> class="contact">
-            <div> class="content">
-                
-            </div>
+    <div class="header">Santosh Roka</div>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+        <a href="demo.html">Demo</a>
+        <a href="report.html">Report</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out by filling out the form below:</p>
+            <div class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-        </section>
-            <P>
-                
-            </P>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </div>
         </div>
-    
-       
-    </main>
-    <aside>
-        <ul>
-            <li>Project Alpha</li>
-            <li>Project Beta</li>
-            <li>Project Gamma</li>
-            <li>Project Delta</li>
-        </ul>
-    </aside>
-    <footer>
-        <p>&copy; Santosh Roka</p>
-    </footer>
+        <div class="sidebar">
+            <ul>
+                <li>Project Alpha</li>
+                <li>Project Beta</li>
+                <li>Project Gamma</li>
+                <li>Project Delta</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
+
