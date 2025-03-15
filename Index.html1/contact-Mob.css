@@ -1,7 +1,50 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+/* Mobile Styles */
+@media screen and (max-width: 800px) {
+
+    /* Adjust Navigation Bar */
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
         text-align: center;
+    }
+
+    /* Contact Container Adjustments */
+    .contact-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    /* Contact Info Styling for Mobile */
+    .contact-info {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-info p {
+        font-size: 1.1rem;
+    }
+
+    /* Contact Form Adjustments for Mobile */
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .contact-form button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 0.8rem;
+    }
 }
