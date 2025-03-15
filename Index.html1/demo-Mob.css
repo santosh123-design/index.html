@@ -1,0 +1,33 @@
+/* demo-Mob.css */
+
+/* General Styles for Mobile / Tablet (larger mobile devices) */
+@media screen and (min-width: 800px) {
+    body {
+      font-size: 1.2rem;
+    }
+  
+    header {
+      padding: 2rem;
+      font-size: 1.8rem;
+    }
+  
+    nav ul {
+      flex-direction: row;
+    }
+  
+    nav ul li {
+      margin: 0 20px;
+    }
+  
+    main {
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 80%;
+    }
+  
+    footer {
+      padding: 2rem;
+      font-size: 1rem;
+    }
+  }
+  

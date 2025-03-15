@@ -1,0 +1,71 @@
+/* demo-D.css */
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  nav {
+    background-color: #2c3e50;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  main {
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  aside {
+    padding: 2rem;
+    background-color: #ecf0f1;
+    margin-top: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Adjustments for large screens */
+  @media screen and (min-width: 800px) {
+    nav ul {
+      justify-content: flex-start;
+    }
+  }
+  
