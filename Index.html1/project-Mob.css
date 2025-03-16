@@ -1,7 +1,6 @@
-/* Mobile Styles */
+
 @media screen and (max-width: 800px) {
 
-    /* Adjusting Navigation Bar */
     nav ul {
         padding: 0;
     }
@@ -12,9 +11,8 @@
         text-align: center;
     }
 
-    /* Adjusting Project Grid */
     .project-grid {
-        grid-template-columns: 1fr; /* Single column on mobile */
+        grid-template-columns: 1fr; 
         gap: 1rem;
     }
 
@@ -26,7 +24,6 @@
         font-size: 0.9rem;
     }
 
-    /* Main Content Padding */
     .projects-main {
         padding: 1rem;
     }

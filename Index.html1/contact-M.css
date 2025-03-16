@@ -48,7 +48,7 @@ nav ul li a {
     margin: 10 auto;
     background-color: hsl(202, 80%, 42%);
     border-radius: 8px;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
 }
 
 
