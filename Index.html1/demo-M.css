@@ -117,8 +117,8 @@ nav ul li a {
 }
 
 footer {
-  background-color: hwb(339 74% 4%);
-  color: hsl(111, 58%, 82%);
+  background-color: rgb(78, 159, 235);
+  color: hwb(113 96% 1%);
   text-align: center;
   padding: 1rem;
   position: relative;
