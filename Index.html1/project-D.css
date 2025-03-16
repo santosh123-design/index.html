@@ -1,19 +1,18 @@
-/* Desktop Styles */
+
 @media screen and (min-width: 800px) {
 
-    /* Navigation Bar Styling */
+  
     nav ul li {
         display: inline-block;
         margin-right: 25px;
     }
 
-    /* Project Grid Layout */
     .project-grid {
         grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
     }
 
-    /* Adjusting Project Item Heading and Paragraph */
+  
     .project-item h3 {
         font-size: 1.5rem;
     }
