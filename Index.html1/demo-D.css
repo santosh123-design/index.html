@@ -1,8 +1,6 @@
-/* demo-D.css */
 
-/* General Styles */
 * {
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
   }
@@ -10,6 +8,8 @@
   body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    width: 1000px;
+    height: 1000%;
   }
   
   header {
@@ -21,6 +21,7 @@
   
   nav {
     background-color: #2c3e50;
+    text-align: center;
   }
   
   nav ul {
@@ -31,18 +32,18 @@
   }
   
   nav ul li {
-    margin: 0 15px;
+    margin:  15px;
   }
   
   nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.1rem;
+    font-size: center;
   }
   
   main {
     padding: 2rem;
-    background-color: white;
+    background-color: hsla(68, 43%, 70%, 0.875);
     margin: 2rem auto;
     max-width: 1200px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -62,7 +63,7 @@
     padding: 1rem;
   }
   
-  /* Adjustments for large screens */
+
   @media screen and (min-width: 800px) {
     nav ul {
       justify-content: flex-start;
