@@ -1,7 +1,7 @@
 /* demo-Mob.css */
 
 /* General Styles for Mobile / Tablet (larger mobile devices) */
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     body {
       font-size: 1.2rem;
     }
