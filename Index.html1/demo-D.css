@@ -44,7 +44,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: calc(100vh - 200px); /* Adjusting for header and footer height */
+  height: calc(100vh - 200px); 
   background-color: hwb(186 57% 17% / 0.875);
 }
 
