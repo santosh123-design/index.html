@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: #3498db;
+    background-color: #134cc7;
     padding: 1rem;
 }
 
@@ -70,7 +70,7 @@ nav ul li a {
 
 .project-item p {
     font-size: 1rem;
-    color: #555;
+    color: #f3eded;
     line-height:1.2;
     width:none;
 }
