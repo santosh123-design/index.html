@@ -20,7 +20,7 @@ body {
 }
 
 nav {
-    background-color: #3498db;
+    background-color: #134cc7;
     padding: 1rem;
 }
 
@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ecec61;
+    color: hsl(60, 18%, 96%);
     text-decoration: none;
     font-size: 1.2rem;
 }
