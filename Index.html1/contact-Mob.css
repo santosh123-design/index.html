@@ -1,20 +1,17 @@
-/* Mobile Styles */
+
 @media screen and (max-width: 800px) {
 
-    /* Adjust Navigation Bar */
     nav ul li {
         display: block;
         margin-bottom: 10px;
         text-align: center;
     }
 
-    /* Contact Container Adjustments */
     .contact-container {
         flex-direction: column;
         padding: 1rem;
     }
 
-    /* Contact Info Styling for Mobile */
     .contact-info {
         width: 100%;
         margin-bottom: 2rem;
@@ -28,7 +25,6 @@
         font-size: 1.1rem;
     }
 
-    /* Contact Form Adjustments for Mobile */
     .contact-form {
         width: 100%;
     }

@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #3d5ccb;
     line-height: 1.6;
     color: #333;
 }
@@ -29,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: hsl(242, 25%, 22%);
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -43,7 +43,7 @@ nav ul li a {
 
 .projects-main h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -52,18 +52,23 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .project-item {
-    background-color: #fff;
+    background-color: hsl(110, 84%, 45%);
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     text-align: center;
+    width: 100%;
+    max-width: 250px;
 }
 
 .project-item h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 1rem;
 }
 
@@ -82,4 +87,23 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 1200px) {
+    .project-grid {
+        grid-template-columns: repeat(4, 1fr); /* Keep 4 columns on large screens */
+    }
+}
+
+@media (max-width: 900px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+    }
 }
