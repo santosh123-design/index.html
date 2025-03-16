@@ -42,5 +42,7 @@
 
     footer {
         padding: 0.8rem;
+        background-color: blue;
+        text-align: white;
     }
 }
