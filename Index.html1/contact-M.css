@@ -21,7 +21,7 @@ p {
 }
 
 nav {
-    background-color: #d0dff8;
+    background-color:#134cc7;
     padding: 1rem;
 }
 
@@ -36,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: hsl(214, 9%, 52%);
+    color: hwb(214 92% 3%);
     text-decoration: none;
     font-size: 1.2rem;
 }
